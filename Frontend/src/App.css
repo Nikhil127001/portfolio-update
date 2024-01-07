@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+}
+
+.homePageData{
+    margin-top: 90px;
+    width : 100%;
+
+}
+
+@media screen and (max-width : 320px){
+    .homePageData{
+        width : 390px
+    }
+}
+@media screen and (max-width : 320px){
+    .homePageData{
+        width : 390px
+    }
+}
+@media screen and (max-width : 487px){
+    .gradient{
+        font-size:  60px
+    }
+}
+
+/* style={{ paddingTop: '90px', display: 'flex', flexDirection: 'row', width : '100%' }} */
+
+.projectsBody{
+    padding-top: '90px';
+    display: flex;
+    flex-direction: 'row';
+    width: '100%';
+    margin-top: 70px;
+    align-items: center;
+}
+
+@media screen and (max-width : 850px){
+    .projectsBody{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+}
+
+
+.ProjectDesc{
+    color: black;
+    width: 40%;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width : 1166px){
+   .ProjectDesc{
+     width: 100%;
+     font-size: 15px;
+    }
+}
+
+.imagesFrame{
+    height: 500px;
+    width: 700px;
+    overflow: scroll;
+    padding: 5px ;
+    border: 1px solid grey ;
+}
+
+
